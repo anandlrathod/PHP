@@ -4,6 +4,7 @@
 <?php
 if($_FILES){
   //Checking if file is selected or not
+  alert("fds");
   if($_FILES['file']['name'] != "") {
   
         //Checking if the file is plain text or not
