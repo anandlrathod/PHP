@@ -33,7 +33,7 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     // output data of each row
-	echo "$result";
+	
     while($row = $result->fetch_assoc()) {
         echo "employee_id: " . $row["employee_id"].$row["user_id"];
     }
